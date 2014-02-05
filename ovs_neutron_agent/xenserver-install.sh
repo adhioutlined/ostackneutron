@@ -12,7 +12,7 @@ rpm -qa | grep python-sqlalchemy >/dev/null 2>&1
 if [ $? -ne 0 ]; then
         echo "python-sqlalchemy not found"
     echo "Please enable the centos repositories and install python-sqlalchemy:"
-    echo "yum --enablerepo=base -y install python-sqlalchemy"
+    echo "yum --disablerepo=citrix --enablerepo=base,updates -y install python-sqlalchemy"
     exit 1
 fi
 
