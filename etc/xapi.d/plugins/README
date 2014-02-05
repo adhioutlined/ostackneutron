@@ -1,4 +1,8 @@
-Modified to Adding allowd cmd
+Make sure "netwarp" was executable by changing the permissions,
+
+chmod a+x netwarp
+
+I was Modified netwarp to Adding allowd cmd
 
 - iptables-save
 - iptables-restore
