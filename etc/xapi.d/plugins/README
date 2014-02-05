@@ -1,1 +1,6 @@
-test aja gitu
+Modified to Adding allowd cmd
+
+- iptables-save
+- iptables-restore
+- ip6tables-save
+- ip6tables-restore
